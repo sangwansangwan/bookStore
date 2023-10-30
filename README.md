@@ -26,6 +26,35 @@ npm install
 npm run start
 ```
 
+## -> API usage
+1. Get all books list.
+```bash
+GET REQUEST :>
+API ENDPOINT : http://3.111.39.240:3000/books
+```
+2. Get single book with ID
+```bash
+GET REQUEST :>
+API ENDPOINT : http://3.111.39.240:3000/books/653faa243f2c72b46c3d46c5
+API USAGE : http://3.111.39.240:3000/books/<book object_id>
+```
+3. Create a book
+```bash
+POST REQUEST :>
+API ENDPOINT : http://3.111.39.240:3000/books/653faa243f2c72b46c3d46c5
+BODY AS JSON :> {
+    "title":"booktEST",
+    "author":"Tester",
+    "summary":"This is for test purpose"
+}
+```
+4. Delete a book
+```bash
+DELETE REQUEST :>
+API ENDPOINT :> http://3.111.39.240:3000/books/booktEST
+API Explained :> http://3.111.39.240:3000/books/<book name>
+```
+
 ## 🐳 Optional: Docker Deployment
 1. Build the docker image.
 ```bash
