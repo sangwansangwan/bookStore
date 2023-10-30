@@ -14,8 +14,8 @@ If not, download and install them from [Node.js official site](https://nodejs.or
 ### 🚀 Quick Start
 1. Clone the repository
 ```bash
-git clone [repository_url]
-cd path_to_repository
+https://github.com/sangwansangwan/bookStore.git
+cd bookStore
 ```
 2. Install depedencies
 ```bash
